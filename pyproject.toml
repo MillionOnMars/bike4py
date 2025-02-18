@@ -4,9 +4,15 @@ build-backend = "hatchling.build"
 
 [project]
 name = "bike4py"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bike4Mind API client"
+readme = "README.mdown"
+license = "MIT"
 requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
 dependencies = [
     "httpx>=0.24.0",
     "websockets>=11.0",
@@ -14,6 +20,19 @@ dependencies = [
     "click>=8.0.0",
     "aiohttp>=3.9.0",
 ]
+keywords = [
+    "bike4mind",
+    "bike4py",
+    "api",
+    "client",
+    "llm",
+    "chat",
+]
+
+[project.urls]
+Homepage = "https://bike4mind.com"
+Repository = "https://github.com/MillionOnMars/bike4py"
+
 
 [project.optional-dependencies]
 dev = [
