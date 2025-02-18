@@ -6,7 +6,7 @@ build-backend = "hatchling.build"
 name = "bike4py"
 version = "0.1.1"
 description = "Bike4Mind API client"
-readme = "README.mdown"
+readme = "README.md"
 license = "MIT"
 requires-python = ">=3.8"
 classifiers = [
